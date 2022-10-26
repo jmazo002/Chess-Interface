@@ -1,0 +1,2 @@
+chess:
+	g++ -Iinclude -Llib -o regicide.exe main.cpp source/Pawn.cpp source/Rook.cpp source/Bishop.cpp source/Queen.cpp source/Knight.cpp source/Square.cpp source/King.cpp source/Gameboard.cpp -lmingw32 -lSDL2main -lSDL2
